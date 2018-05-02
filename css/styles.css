@@ -1,0 +1,313 @@
+* {
+	font-family: 'lato';
+}
+
+.IDKFA {
+	float: left;
+	height: 100%;
+	width: 300px;
+	background-color: #00000069;
+	z-index: 120;
+	display: block;
+	left: -300;
+	position: absolute;
+	transition: left 1.5s;
+}
+
+.listWrapper {
+	margin-top: 30px;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(kuvat/firewatch2_1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.listAll {
+	font-family: lato;
+	font-size: 24px;
+	list-style: none;
+	padding-left: 25px;
+}
+
+.listAll:first-child {
+	padding-top: 15px;
+}
+
+.IDKFA li {
+	list-style: none;
+	line-height: 1.5;
+	color: #f5f5f5;
+	font-size: 24px;
+	margin-left: 30px;
+}
+
+.main {}
+
+p.siteTitle {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 20px;
+	display: inline-block;
+	padding-left: 150px;
+}
+
+input#kek {
+	width: 300px;
+	height: 40px;
+	border: 3px solid #f7f7fa;
+	/* border-radius: 5px; */
+	margin-top: 20px;
+	position: relative;
+	margin-left: 47px;
+}
+
+button#daButton {
+	float: left;
+	width: 300px;
+	margin-top: 35px;
+	height: 60px;
+	background-color: #71f216;
+	border: 4px solid #75f21e;
+	font-size: 18px;
+}
+
+button#daButton:active {
+	outline: none;
+	transform: translateY(2px);
+}
+
+button#daButton:focus {
+	outline: none;
+}
+
+.main {}
+
+button {
+	cursor: pointer;
+}
+
+.inputContainer {
+	width: 400px;
+	height: 195px;
+	background-color: #ffe9dc;
+	/* position: absolute; */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: 2px solid #ee433900;
+	padding: 15px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+input#kek {
+	width: 300px;
+	height: 50px;
+	border: 2px solid #ffdbc5;
+	border-radius: 5px;
+	margin-top: 26px;
+	position: relative;
+	margin-left: 47px;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 15px;
+	color: #1b1b1b;
+}
+
+button#daButton {
+	float: left;
+	width: 300px;
+	margin-top: 35px;
+	height: 60px;
+	background-color: #4CAF50;
+	border: 0px solid;
+	font-size: 20px;
+	margin-left: 47px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 100px;
+	/*animation: 1s infinite linear beatHeart; */
+}
+
+input:focus {
+	outline: none;
+}
+
+/*
+@keyframes beatHeart {
+	
+  from {
+    transform: rotate(0deg);
+	
+  }
+    to {
+    transform: rotate(360deg);
+	
+  }
+
+ 
+}	
+*/
+
+.header {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 600;
+	color: #c8293f;
+	/* position: absolute; */
+	top: 5%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 300px;
+}
+
+p.credit {
+	font-size: 18px;
+	font-weight: 600;
+	color: #c8293f;
+	text-align: right;
+	left: 0;
+	padding-top: 7px;
+	display: inline;
+	float: right;
+	padding-right: 25px;
+}
+
+h1, h2, h3 {
+	font-family: 'Cabin', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#popUp {
+	width: 320px;
+	height: 270px;
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: 0px;
+	border-radius: 10px;
+	color: #232323;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.2s linear;
+	box-shadow: 5px 5px 5px 1px #0000002b;
+	margin-top: 9%;
+	z-index: 10;
+}
+
+#no {
+	height: 40px;
+	width: 40px;
+	background-color: #232323;
+	border: 0px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #f5f5f5;
+	border-radius: 20px;
+	position: inherit;
+	right: -20;
+	top: -20;
+	float: right;
+	z-index: 1000;
+	outline: none;
+}
+
+#yes {
+	width: 190px;
+	margin-top: 20px;
+	height: 50px;
+	background-color: #4CAF50;
+	border: 0px;
+	font-size: 17px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 100px;
+}
+
+button {
+	outline: none;
+}
+
+.buttonContainer {
+	bottom: 20;
+	/* position: inherit; */
+	right: 50;
+}
+
+.google {
+	/* opacity: 0.8; */
+	height: 100%;
+	margin: auto;
+	position: relative;
+	left: -15;
+	bottom: -25;
+}
+
+.wrapperStop {
+	text-align: center;
+}
+
+.wrapperStop button {
+	text-align: center;
+	width: 120px;
+	margin-top: 35px;
+	height: 40px;
+	border: 0px solid;
+	font-size: 20px;
+	margin-left: 0px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 100px;
+	margin-right: 15px;
+}
+
+#button-start {
+	background-color: #4CAF50;
+}
+
+#button-stop {
+	background-color: #F44336;
+}
+
+#button-reset {
+	background-color: #FF9800;
+}
+
+.timerP {
+	font-size: 24px;
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+/*
+body {
+    animation-name: rotate; 
+    animation-duration: 14s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear!important;
+}
+*/
