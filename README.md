@@ -1,7 +1,7 @@
 # JS_Harkka
-##Javascript kurssin lopputyö
+## Javascript kurssin lopputyö
 
-###Tehtävänanto
+### Tehtävänanto
 Tehkää sovellus, joka ymmärtää kirjoitusta. Sovelluksen tulee ymmärtää vähintään 10 simppeliä sanaa tai lausetta. Pakollisia sanoja tai lauseita on oma nimesi, google ja listaa kaikki. Loput sanat ja lauseet voit keksiä itse.
 
 Sanojen perusteella ohjelma antaa jonkin tietyn palautteen.
@@ -10,21 +10,21 @@ Oma nimesi tulee palauttaa kuva(oma kuvasi tai joku muu) popupin sisään. Popup
 
 Listaa kaikki tulee listata kaikki saatavilla olevat sanat ja lauseet allekkain omille riveilleen popupin sisään. Popup sisältää napin “Palaa”. Palaa sulkee popupin. Loput palautteet voit keksiä itse
 
-###Leiska
+### Leiska
 Tekijänä saat itse suunnitella sovelluksen ulkoasun.
 
-###UI
+### UI
 Ohjelma sisältää input kentän ja napin. Ohjelman tulee myös sisältää popup, joka hyppää aina tarvittaessa ruudulle(esim. Google kysymys).
 
-###Sana säilö
+### Sana säilö
 Lisäpisteitä suoritukseen saa sillä, että käyttää arraytä tai objektia erillisten muuttujien sijaan. Myös sanaa vastaava vastaus kannattaa olla objektissa.
 
-###Vaatimukset ja rajoitteet
+### Vaatimukset ja rajoitteet
 Koodauskieli
 Javascript puhdas tai jQuery ja Javascript sekaisin. HUOM. jQuery on ainoa sallittu ulkoinen kirjasto tehtävää tehtäessä. JqueryUI tai vastaavia kirjastoja ei saa tässä tehtävässä käyttää.
 
-###Saako tehdä ryhmässä?
+### Saako tehdä ryhmässä?
 Ei
 
-###Saako kopioida koodia muualta?
+### Saako kopioida koodia muualta?
 Pieniä koodinpätkiä voi käyttää. Esim. jos jQueryn $(document).ready syntaksi on unohtunut sen saa käydä kopiomassa muualta.
