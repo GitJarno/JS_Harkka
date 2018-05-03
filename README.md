@@ -1,7 +1,7 @@
 # JS_Harkka
 ## Javascript kurssin lopputyö
 
-## Sivuston näkymä(https://gitjarno.github.io/JS_Harkka/)
+### Sivuston näkymä(https://gitjarno.github.io/JS_Harkka/)
 
 ### Tehtävänanto
 Tehkää sovellus, joka ymmärtää kirjoitusta. Sovelluksen tulee ymmärtää vähintään 10 simppeliä sanaa tai lausetta. Pakollisia sanoja tai lauseita on oma nimesi, google ja listaa kaikki. Loput sanat ja lauseet voit keksiä itse.
